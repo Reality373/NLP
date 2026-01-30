@@ -9,7 +9,7 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 
 # Sample text
-text = "How to remove stopwords using nltk"
+text = input("Enter the text: ")
 print("Original Text:", text)
 
 # Tokenize the text
